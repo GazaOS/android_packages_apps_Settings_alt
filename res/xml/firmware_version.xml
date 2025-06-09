@@ -27,6 +27,14 @@
         android:key="crdroid_logo"
         android:selectable="false" />
 
+   <!-- Maintainer -->
+    <Preference
+        android:key="Maintainer"
+        android:title="@string/maintainerlol"
+        android:summary="@string/maintainernamelol"
+        settings:enableCopying="true"/>
+
+
     <!-- Device name -->
     <Preference
         android:key="about_device_name"
